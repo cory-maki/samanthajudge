@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>About Samantha Judge | Researcher, Marathoner &amp; Sensory-Inclusion Advocate | New York</title>
+<meta name="description" content="About Samantha Judge: KultureCity board member, co-namesake of the Madison Square Garden sensory room, Fresno State kinesiology researcher, and NYC Marathon finisher."/>
+<link rel="canonical" href="https://samanthajudge.netlify.app/about.html"/>
+<meta property="og:type" content="profile"/>
+<meta property="og:site_name" content="Samantha Judge"/>
+<meta property="og:title" content="About Samantha Judge | Researcher, Marathoner &amp; Sensory-Inclusion Advocate | New York"/>
+<meta property="og:description" content="About Samantha Judge: KultureCity board member, co-namesake of the Madison Square Garden sensory room, Fresno State kinesiology researcher, and NYC Marathon finisher."/>
+<meta property="og:image" content="https://samanthajudge.netlify.app/images/hero.jpg"/>
+<meta property="og:url" content="https://samanthajudge.netlify.app/about.html"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://samanthajudge.netlify.app/#person",
+      "name": "Samantha Judge",
+      "alternateName": [
+        "Sam Judge",
+        "Samantha Bracksieck",
+        "Sam Bracksieck",
+        "Samantha Bracksieck Judge"
+      ],
+      "jobTitle": "Kinesiology Researcher and Sensory-Inclusion Advocate",
+      "url": "https://samanthajudge.netlify.app/",
+      "image": "https://samanthajudge.netlify.app/images/hero.jpg",
+      "description": "Samantha Judge is a KultureCity board member, kinesiology researcher, and marathoner whose work centers on sensory inclusion, including the Aaron and Samantha Judge Sensory Room at Madison Square Garden.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "California State University, Fresno"
+      },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "KultureCity"
+      },
+      "sameAs": [
+        "https://www.instagram.com/samanthajudge01/",
+        "https://www.threads.com/@samanthajudge01",
+        "https://www.youtube.com/@samanthajudge01",
+        "https://www.tiktok.com/@samanthajudge01",
+        "https://dribbble.com/samanthajudge01",
+        "https://vimeo.com/samanthajudge01",
+        "https://www.pinterest.com/samanthajudge01/_profile/",
+        "https://www.quora.com/profile/Samantha-Judge-26",
+        "https://www.reddit.com/user/samanthajudge01/",
+        "https://about.me/samanthajudge",
+        "https://www.behance.net/samanthajudge1",
+        "https://soundcloud.com/samanthajudge01"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://samanthajudge.netlify.app/#website",
+      "url": "https://samanthajudge.netlify.app/",
+      "name": "Samantha Judge",
+      "publisher": {
+        "@id": "https://samanthajudge.netlify.app/#person"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "AboutPage",
+      "@id": "https://samanthajudge.netlify.app/about.html#webpage",
+      "url": "https://samanthajudge.netlify.app/about.html",
+      "name": "About Samantha Judge",
+      "isPartOf": {
+        "@id": "https://samanthajudge.netlify.app/#website"
+      },
+      "mainEntity": {
+        "@id": "https://samanthajudge.netlify.app/#person"
+      }
+    }
+  ]
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/style.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+(function(){
+  const _sb=supabase.createClient('https://aowblircaymwuymcmllh.supabase.co','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFvd2JsaXJjYXltd3V5bWNtbGxoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTIzMzExMjcsImV4cCI6MjA2NzkwNzEyN30.qS7jxVwu83zEYMvxNo7C_2dtVrSZ6wYIFiNtoN69UkQ');
+  const _cid='Samantha Judge';
+  async function loadSBLinks(){
+    const[{data:soc},{data:news}]=await Promise.all([
+      _sb.from('social_media').select('*').eq('client_id',_cid),
+      _sb.from('news_links').select('*').eq('client_id',_cid)
+    ]);
+    const render=(ids,data)=>ids.forEach(id=>{
+      const el=document.getElementById(id);
+      if(!el||!data)return;
+      el.innerHTML='';
+      data.forEach(l=>{
+        const a=document.createElement('a');
+        a.href=l.url;a.target='_blank';a.rel='noopener noreferrer';a.title=l.name;
+        a.innerHTML='<img src="'+l.icon+'" alt="'+l.name+'" style="width:30px;height:30px;border-radius:4px"/>';
+        el.appendChild(a);
+      });
+    });
+    render(['sml-soc-about'],soc);
+    render(['sml-news-about'],news);
+  }
+  document.addEventListener('DOMContentLoaded',loadSBLinks);
+})();
+</script>
+</head>
+<body>
+
+<!-- ══ NAV ═══════════════════════════════════════════════════════ -->
+<nav id="main-nav">
+  <a class="nav-logo" href="/">Samantha<span> Judge</span></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a class="active" href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ══ PAGE HERO ═════════════════════════════════════════════════ -->
+<div class="pg-hero">
+  <p class="eyebrow" style="color:rgba(255,255,255,.55)">Learn More</p>
+  <h1>Samantha Judge</h1>
+  <p class="pg-sub">Sensory-inclusion advocate, kinesiology researcher, and marathoner — from Linden, California to New York.</p>
+</div>
+
+<!-- ══ PROFILE CARD ══════════════════════════════════════════════ -->
+<div class="pc-wrap">
+  <div class="pc">
+    <div class="pc-ph"><img src="images/hero.jpg" alt="Portrait of Samantha Judge"/></div>
+    <div>
+      <div class="pc-nm">Samantha Judge</div>
+      <div class="pc-rl">Researcher, Marathoner &amp; Sensory-Inclusion Advocate</div>
+      <div class="pc-lc">New York, NY</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ ABOUT SECTIONS + SIDEBAR ══════════════════════════════════ -->
+<div class="am-wrap">
+  <div class="am-inner">
+    <div>
+
+      <div class="csec">
+        <p class="cey">Board Service</p>
+        <h2>A Seat on KultureCity’s Board</h2>
+        <p>Samantha Judge serves on the Board of Directors of KultureCity, a nonprofit that works to make public spaces accessible to people with sensory needs and invisible disabilities, such as autism, PTSD, and dementia. Based in New York, Sam Judge has made the organization’s mission the center of her public work.</p>
+        <p>KultureCity’s model combines staff training, sensory bags stocked with tools such as noise-canceling headphones and fidget items, and designated quiet areas at partner venues. A board role is a standing commitment rather than a single appearance, and it places Samantha inside the governance of an organization whose programs reach sporting events, concerts, and other large gatherings. A closer look at <a href="kulturecity-board-service.html">her KultureCity board service</a> explains how those programs work in practice. Readers can also follow <a href="https://www.instagram.com/samanthajudge01/" target="_blank" rel="noopener">Samantha Judge on Instagram</a>.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">Madison Square Garden</p>
+        <h2>The Sensory Room at MSG</h2>
+        <p>In 2024, the Aaron and Samantha Judge Sensory Room opened at Madison Square Garden as a permanent space inside one of New York’s busiest venues. The room is equipped with adjustable lighting, calming visuals, comfortable seating, tactile elements, and a bubble wall, giving guests with sensory processing needs a place to decompress during events.</p>
+        <p>The practical effect is access. Families who previously avoided crowded arenas now have a defined option for stepping away from noise and light without leaving the event. A full walkthrough of <a href="madison-square-garden-sensory-room.html">the sensory room at Madison Square Garden</a> describes its features and how guests use it. Samantha also maintains <a href="https://www.youtube.com/@samanthajudge01" target="_blank" rel="noopener">her YouTube channel</a>.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">Endurance Running</p>
+        <h2>Marathons Run With a Purpose</h2>
+        <p>Samantha has completed multiple marathons, several of them in support of KultureCity. She finished the 2023 TCS New York City Marathon in 3:31:44 while representing the organization, then returned to the same course in 2025 and crossed the line in 3:32:34, again running in support of KultureCity.</p>
+        <p>At the 2026 Boston Marathon, she ran as a guide for Adrienne Bunn, an athlete with autism, putting her race-day experience to work for another competitor. The link between <a href="marathon-journey-sensory-inclusion.html">her marathon running and sensory advocacy</a> is examined in a dedicated feature. Readers can also find <a href="https://www.tiktok.com/@samanthajudge01" target="_blank" rel="noopener">Sam Judge on TikTok</a>.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">Kinesiology Research</p>
+        <h2>Graduate Research on UCL Injury</h2>
+        <p>Samantha Judge’s academic work predates her public advocacy. Her graduate research in kinesiology at Fresno State examined the risk of ulnar collateral ligament (UCL) injury among Major League Baseball pitchers, connecting biomechanics to injury prevention at the sport’s highest level. The project was recognized as the university’s Outstanding Master’s Degree Project in 2017.</p>
+        <p>The research reflects an interest in how the body moves under athletic stress, the same subject that later carried into her own endurance training. It also gives her a professional credential that stands on its own, independent of any connection to professional sports. A summary profile is available on <a href="https://about.me/samanthajudge" target="_blank" rel="noopener">her about.me page</a>.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">Roots</p>
+        <h2>From Linden to Fresno State</h2>
+        <p>Before New York, there was Linden, California, the small Central Valley community where Samantha Bracksieck’s story begins. Sam Bracksieck and Aaron Judge share those Linden roots, along with their time at Fresno State, a foundation that predates professional baseball.</p>
+        <p>Together, the couple supports the ALL RISE Foundation, which focuses on children, education, character development, health, and leadership. That involvement follows the same pattern as the rest of her record: steady participation rather than one-off appearances. Shorter updates appear on <a href="https://www.threads.com/@samanthajudge01" target="_blank" rel="noopener">her Threads profile</a>.</p>
+      </div>
+
+    </div>
+
+    <aside class="sidebar-facts">
+      <div class="sb-box">
+        <div class="sb-title">Quick Facts</div>
+        <div class="fr"><span class="fl">Name</span><span class="fv">Samantha Judge (née Bracksieck)</span></div>
+        <div class="fr"><span class="fl">Hometown</span><span class="fv">Linden, California</span></div>
+        <div class="fr"><span class="fl">Education</span><span class="fv">Kinesiology, Fresno State</span></div>
+        <div class="fr"><span class="fl">Research Honor</span><span class="fv">Outstanding Master’s Degree Project (2017)</span></div>
+        <div class="fr"><span class="fl">Board Service</span><span class="fv">KultureCity Board of Directors</span></div>
+        <div class="fr"><span class="fl">Marathons</span><span class="fv">NYC 2023 (3:31:44), NYC 2025 (3:32:34)</span></div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- ══ SOCIAL + PRESS ACCORDION ══════════════════════════════════ -->
+<div class="acc-section" style="background:var(--off)">
+  <div class="acc-wrap">
+    <button class="acc-btn" onclick="tog(this,'s-about')">Follow Samantha Judge on Social Media <span class="chevron">&#8964;</span></button>
+    <div class="acc-body" id="s-about"><div id="sml-soc-about" class="social-media-list"></div></div>
+    <button class="acc-btn" onclick="tog(this,'n-about')">Samantha Judge in the Press <span class="chevron">&#8964;</span></button>
+    <div class="acc-body" id="n-about"><div id="sml-news-about" class="social-media-list"></div></div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 Samantha Judge. All rights reserved. &nbsp;|&nbsp; <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+
+<script>
+function tog(btn,id){
+  const c=document.getElementById(id),open=c.classList.contains('open');
+  document.querySelectorAll('.acc-body').forEach(e=>e.classList.remove('open'));
+  document.querySelectorAll('.acc-btn').forEach(e=>e.classList.remove('open'));
+  if(!open){c.classList.add('open');btn.classList.add('open');}
+}
+</script>
+</body>
+</html>
